@@ -1,0 +1,148 @@
+/* Sidebar Container */
+.sidebar {
+    overflow: hidden;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+
+/* Logo */
+.sidebar-logo {
+    width: 9rem;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+}
+.icox{
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+/* Menu Items */
+.menu-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333;
+    text-decoration: none;
+}
+
+.menu-item img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+.menu-item.active {
+    color: black;
+    background-color: #e1e1e1;
+    color: #28A263;
+}
+
+/* Profile Section */
+.profile-section {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 2rem;
+    width: 13rem;
+    justify-content: center;
+}
+
+.profile-section:hover {
+    background-color: #e1e1e1;
+}
+
+.user-avatar {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.username {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Sign-Out Modal */
+.modal {
+    position: absolute;
+    bottom: 60px;
+    width: 180px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+}
+
+.signout-button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: red;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.signout-icon {
+    width: 20px;
+    margin-right: 8px;
+}
+@media (max-width:1023px) {
+    .sidebar{
+        width: 100vw;
+        display: flex;
+        position: fixed;
+        flex-direction: row;
+        overflow: scroll;
+        bottom: 0;
+        background-color: #fff;
+        z-index: 1;
+    }
+    .sidebar-logo{
+        position: fixed;
+        top:0rem;
+        left: 10px;
+        width: 8rem;
+        margin-top: 2rem;
+    }
+    .menu-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+   .icon{
+    margin: 0;
+   }
+    .profile-section{
+        width: 2rem;
+        height: 2rem;
+        display: flex;
+        position: fixed;
+        top:2rem;
+        right: 2rem;
+        margin-top: 0;
+        h4{
+            display: none;
+        }
+    }
+    .modal{
+        position: fixed;
+        top:1rem;
+        bottom: 0;
+        right: 5rem;
+        height: fit-content;
+    }
+}

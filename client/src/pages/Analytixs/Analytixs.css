@@ -1,0 +1,140 @@
+/* Main container */
+.container1 {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f3f4f6; /* gray-100 */
+}
+
+/* Sidebar */
+
+.contentsss{
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-left: 35px;
+    margin-top: 1rem;
+}
+
+/* Main content */
+.main-contents {
+    flex-grow: 1;
+    padding:  0 24px 24px 0;
+}
+
+
+/* Navbar */
+.navbar {
+    margin-bottom: 24px;
+}
+
+/* Overview section */
+.overview {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.card {
+    background-color: white;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card p {
+    color: #4b5563; /* text-gray-600 */
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Green card */
+.green-card {
+    background-color: #22c55e; /* green-500 */
+    color: white;
+}
+
+/* Line chart container */
+.chart-container {
+    background-color: white;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 24px;
+}
+
+/* Bottom section (2-column layout) */
+.bottom-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+/* Individual chart container */
+.chart-box {
+    background-color: white;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.chart-box h3 {
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+/* Add media queries for mobile view */
+@media (max-width: 1023px) {
+  .contentsss{
+    padding-left: 0;
+    padding-bottom: 5rem;
+  }
+    .overview {
+      display: flex;
+      flex-direction: row;
+      overflow-x: auto;
+      padding: 10px 0;
+    }
+  
+    .overview .card {
+      flex: 0 0 auto;
+      margin-right: 10px;
+    }
+  
+    .chart-container {
+      width: 100%;
+      overflow-x: auto;
+    }
+  
+    .chart-container .recharts-wrapper {
+      width: 100%;
+      min-width: 600px;
+    }
+  
+    .bottom-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .bottom-section .chart-box {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .bottom-section .chart-box h3 {
+      text-align: center;
+    }
+  
+    .bottom-section .chart-box .recharts-wrapper {
+      width: 100%;
+      min-width: 300px;
+    }
+    .main-contents{
+        padding: 0;
+        overflow-x: hidden;
+        padding-bottom: 5rem;
+        margin-top: 6rem;
+    }
+  }

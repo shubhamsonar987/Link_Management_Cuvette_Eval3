@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.matter{
+    width: 90%;
+    margin: 0 auto 0 auto;
+    font-family: "Poppins", sans-serif;
+}
+.headerss {
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+    margin-top: 2rem;
+    background-color: #fff;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1); 
+    padding: 0 1rem 0 2rem;
+    border: none;
+    border-radius: 35px;
+  }
+  
+.market{
+    display: flex;
+    align-items: center;
+}
+
+.btncont{
+    display: flex;
+    align-items: center;
+}
+.btnforsignup{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    height: 2rem;
+    border: none;
+    background-color: #28A263;
+    border-radius: 1.2rem;
+    font-size: x-small;
+    text-decoration: none;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: 0.8fr 1fr;
+    gap: 2rem;
+}
+.left1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+    max-width: 85%;
+    margin-top: 2rem;
+}
+.h1ofgrid1{
+    font-size:2.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    margin-top: 3rem;
+}
+.h5ofgrid1{
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+.grid1link{
+    text-decoration: none;
+    color:#fff;
+    background-color: #28A263;
+    width: 8rem;
+    padding:0.5rem 1rem;
+    border-radius: 1rem;text-align: center;
+    font-size: x-small;
+}
+.right1{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+.anak{
+    width: 80%;
+    height: 100%;
+    object-fit: cover; 
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 2rem;
+}
+.left2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.04); 
+
+}
+.right2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+    max-width: 85%;
+}
+.h1fromgrid2{
+    font-size:2.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    margin-top: 3rem;
+}
+.grid3{
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.anak1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+.left3{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+    justify-content: center;
+    max-width: 85%;
+}
+.grid4{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 2rem;
+    margin: 1rem 0 0 0;
+}
+.left4{
+    width: 34rem;
+    font-weight: 400;
+    font-size: 2.5rem;
+    padding-left: 3rem;
+    margin: 0;
+}
+.right4{
+    display: flex;
+    align-items:start ;
+    padding-left: 3rem;
+    justify-content: end;
+    margin-right: 5rem;
+}
+.staricon{
+    margin: 1rem 0.5rem 0 0;
+}
+.shortDescription{
+    width: 15rem;
+}
+.readcus{
+    color:#28A263;
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+    border: 1px solid #28A263;
+    border-radius: 1rem;
+    margin-left: 2.5rem;
+    margin-top: 0.5rem;
+}
+.grid5{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 2rem;
+    font-weight: 400;
+}
+.left51{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: #DEDEDE;
+    border-radius: 1.2rem;
+}
+.heads51{
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.bottom51{
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+.left52{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: #DEDEDE;
+    border-radius: 0.5rem;
+}
+.leftbottom51{
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    border-radius: 50%;
+    background: #28A263;
+}
+.gridSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.linkshead{
+    font-size: 2.5rem;
+}
+.luxcont{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.iconimage{
+    display: flex;
+    height: 4rem;
+    margin-right: 1rem;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1); 
+    padding: 1rem 2rem 2rem 2rem;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 35px;
+    margin-top: 2rem;
+    background-color: #fff;
+    font-weight: 600;
+}
+.footerContainer{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr ;
+    margin-top: 2rem;
+}
+.footerTopButtons{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.linktologin{
+    color:#000;
+    background-color: #EFF0EC;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.7rem;
+    text-decoration: none;
+    font-weight: 400;
+}
+.linktosignup{
+    color:#fff;
+    background-color: #28A263;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    text-decoration: none;
+    font-weight: 400;
+}
+.footerTopLinks{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.footerBottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.acknowledgment{
+    width: 70%;
+}
+.socialIcons{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.iconsfill{
+    font-size: 2rem;
+}
+.iconsfills{
+    width: 2.7rem;
+}
+@media (max-width:1023px){
+    .grid1{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        .left1{
+            width: 100%;
+            padding: 0;
+        }
+        .right1{
+            justify-content: start;
+        }
+    }
+    .grid2{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        .right2{
+            width: 100%;
+            padding: 0;
+        }
+    }
+    .left2{
+        img{
+            width:18rem;
+        }
+    }
+    .grid3{
+        display: flex;
+        width: 100vw;
+        flex-direction: column;
+        .left3{
+            width: 100%;
+            padding: 0;
+        }
+    }
+    .grid4{
+        display: flex;
+        width: 100vw;
+        flex-direction: column;
+        .left4,.right4{
+            width: 22rem;
+            margin: 0;
+            padding: 0%;
+            justify-content: start;
+        }
+    }
+    .grid5{
+        display: flex;
+        flex-direction: column;
+    }
+    .gridSection{
+        display: flex;
+        flex-direction: column;
+    }
+    .linktologin,.linktologin{
+        font-size: 0.8rem;
+    }
+    .footerContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .footerBottom{
+        display: flex;
+        flex-direction: column;
+    }
+    .linkshead{
+        margin-top: 1rem;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+}
